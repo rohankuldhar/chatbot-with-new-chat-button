@@ -14,7 +14,7 @@ from langchain.prompts.prompt import PromptTemplate
 from dotenv import load_dotenv
 import os
 
-os.environ["OPENAI_API_KEY"] == st.secrets["OPENAI_API_KEY"])
+os.environ["OPENAI_API_KEY"] == st.secrets["OPENAI_API_KEY"]
 
 # Define a variable to store the chat history in the Streamlit session state
 if "chat_history" not in st.session_state:
